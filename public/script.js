@@ -1,6 +1,6 @@
 	// créer un noeud en json
 	let noeud = 'personnes.json';
-	let url = 'https://gestion-equipe.firebaseio.com/'+noeud;
+	let url = 'https://monprojet-275a2-default-rtdb.europe-west1.firebasedatabase.app/'+noeud;
 	let tableau = [];
 	//-----------------------------------------------------
 	fetch(url)
